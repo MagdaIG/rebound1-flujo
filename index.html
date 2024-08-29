@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HostelsPage</title>
+</head>
+<body>
+<!-- Bloque de encabezado -->
+<header class="header">
+    <nav class="header__nav">
+        <ul class="header__menu">
+            <!-- Elementos del menú de navegación -->
+            <li class="header__menu-item"><a href="#" class="header__menu-link">HostelsPage</a></li>
+            <li class="header__menu-item"><a href="#" class="header__menu-link">Home</a></li>
+            <li class="header__menu-item"><a href="#" class="header__menu-link">About us</a></li>
+            <li class="header__menu-item"><a href="#" class="header__menu-link">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Bloque de contenido principal -->
+<main class="main-content">
+    <section class="main-content__hero">
+        <h1 class="main-content__title">HostelsPage</h1>
+        <p class="main-content__subtitle">Your site for booking hostels around the world</p>
+    </section>
+
+    <section class="main-content__search">
+        <form class="search-form">
+            <!-- Campo para destino -->
+            <div class="search-form__field">
+                <label for="destination" class="search-form__label">Where do you want to go?</label>
+                <input type="text" id="destination" class="search-form__input">
+            </div>
+
+            <!-- Campos para fechas de reserva -->
+            <div class="search-form__field">
+                <label class="search-form__label">When?</label>
+                <div class="search-form__date">
+                    <label for="from" class="search-form__label">From:</label>
+                    <input type="date" id="from" class="search-form__input">
+                    <label for="to" class="search-form__label">To:</label>
+                    <input type="date" id="to" class="search-form__input">
+                </div>
+            </div>
+
+            <!-- Campos para número de personas -->
+            <div class="search-form__field">
+                <label class="search-form__label">How many people?</label>
+                <input type="number" class="search-form__input" placeholder="adults">
+                <input type="number" class="search-form__input" placeholder="children">
+            </div>
+
+            <!-- Botón de búsqueda -->
+            <button type="submit" class="search-form__button">Search</button>
+        </form>
+    </section>
+</main>
+
+<!-- Bloque de pie de página -->
+<footer class="footer">
+    <div class="footer__text">All rights reserved</div>
+    <div class="footer__social">
+        <a href="#" class="footer__social-link">Instagram</a>
+        <a href="#" class="footer__social-link">Facebook</a>
+        <a href="#" class="footer__social-link">Twitter</a>
+    </div>
+</footer>
+</body>
+</html>
+
